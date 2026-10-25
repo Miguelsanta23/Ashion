@@ -1,8 +1,8 @@
 # Ashion - Tienda de moda
 
-Maquetación de la página de inicio de **Ashion** para Programación 4.
+Maquetación de la página de inicio de **Ashion** para Programacion 4.
 
-- **Autor:** Miguel Ange Santafe Castrillon
+- **Autor:** Miguel Angel Santafe Castrillon
 - **Tecnologías:** HTML5, CSS3, Bootstrap 5.3 (grillas), Bootstrap Icons, Google Fonts
 - **Metodología CSS:** BEM
 
@@ -13,7 +13,7 @@ Ashion/
 ├── index.html        → estructura de la página
 ├── css/
 │   └── styles.css    → estilos propios con BEM
-├── img/              → imágenes (logo es texto con la fuente Cookie)
+├── img/              → imagenes (logo es texto con la fuente Cookie)
 └── README.md
 ```
 
@@ -21,7 +21,7 @@ Ashion/
 
 | Clase | Para qué sirve |
 |-------|----------------|
-| `navbar navbar-expand-lg` | Menú que se vuelve hamburguesa en pantallas < 992px |
+| `navbar navbar-expand-lg` | Menu que se vuelve hamburguesa en pantallas < 992px |
 | `container-fluid` | Contenedor que ocupa todo el ancho |
 | `row g-2` | Fila de la grilla con separación pequeña entre columnas |
 | `col-12 col-lg-6` | 100% en celular/tablet, 50% en PC |
