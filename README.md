@@ -2,14 +2,14 @@
 
 Maquetación de la página de inicio de **Ashion** para Programación 4.
 
-- **Autor:** Miguel Santa
+- **Autor:** Miguel Ange Santafe Castrillon
 - **Tecnologías:** HTML5, CSS3, Bootstrap 5.3 (grillas), Bootstrap Icons, Google Fonts
 - **Metodología CSS:** BEM
 
 ## Estructura del proyecto
 
 ```
-ashion/
+Ashion/
 ├── index.html        → estructura de la página
 ├── css/
 │   └── styles.css    → estilos propios con BEM
