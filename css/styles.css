@@ -1,0 +1,66 @@
+/* Variables de color y fuentes */
+:root {
+  --color-primary: #ca1515;
+  --color-dark: #111111;
+  --color-text: #666666;
+  --color-white: #ffffff;
+  --color-hero: #fbe3d9;
+  --color-men: #bfe3d9;
+  --color-kids: #dcd8f0;
+  --color-cosmetics: #fadce2;
+  --color-accessories: #cfe3f5;
+  --font-script: "Cookie", cursive;
+  --font-main: "Montserrat", sans-serif;
+}
+
+/* Estilos base  */
+body {
+  font-family: var(--font-main);
+  color: var(--color-dark);
+  background-color: var(--color-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* BLOQUE: header*/
+.header {
+  background-color: var(--color-white);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
+  position: relative;
+  z-index: 10;
+}
+
+.header__container {
+  padding: 18px 48px;
+}
+
+.header__logo {
+  font-family: var(--font-script);
+  font-size: 46px;
+  color: var(--color-dark);
+  line-height: 1;
+}
+
+.header__logo:hover {
+  color: var(--color-dark);
+}
+
+.header__toggler {
+  border: none;
+  box-shadow: none !important;
+}
+
+.header__item {
+  margin: 0 12px;
+}
+
+.header__link {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--color-dark) !important;
+  padding: 6px 0 !important;
+}
