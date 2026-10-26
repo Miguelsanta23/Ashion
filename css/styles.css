@@ -211,3 +211,61 @@ a {
 .category__button:hover {
   color: var(--color-primary);
 }
+
+/* BLOQUE: category (tarjetas pequeñas) */
+.category {
+  position: relative;
+  height: 354px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.category__content {
+  position: relative;
+  z-index: 2;
+  padding-left: 34px;
+}
+
+.category__title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.category__count {
+  font-size: 15px;
+  color: var(--color-text);
+  margin-bottom: 14px;
+}
+
+.category__image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 1;
+  transition: transform 0.4s ease;
+}
+
+.category:hover .category__image {
+  transform: scale(1.04);
+}
+
+/* Modificadores: un color de fondo para cada categoría */
+.category--men {
+  background-color: var(--color-men);
+}
+
+.category--kids {
+  background-color: var(--color-kids);
+}
+
+.category--cosmetics {
+  background-color: var(--color-cosmetics);
+}
+
+.category--accessories {
+  background-color: var(--color-accessories);
+}
+
