@@ -269,3 +269,102 @@ a {
   background-color: var(--color-accessories);
 }
 
+/* RESPONSIVE (los puntos de corte son los mismos de Bootstrap)*/
+
+/* Pantallas medianas-grandes */
+@media (max-width: 1399.98px) {
+  .header__container {
+    padding: 18px 24px;
+  }
+
+  .header__item {
+    margin: 0 8px;
+  }
+
+  .header__right {
+    gap: 20px;
+  }
+
+  .hero__title {
+    font-size: 66px;
+  }
+}
+
+/* Tablet y celular: menu hamburguesa (Bootstrap colapsa en < 992px) */
+@media (max-width: 991.98px) {
+  .header__container {
+    padding: 14px 20px;
+  }
+
+  .header__collapse {
+    padding-top: 12px;
+  }
+
+  .header__item {
+    margin: 0;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .header__link {
+    display: inline-block;
+    padding: 12px 0 !important;
+  }
+
+  .header__right {
+    justify-content: space-between;
+    padding: 16px 0 6px;
+  }
+
+  .hero {
+    min-height: 520px;
+  }
+
+  .hero__content {
+    padding-left: 40px;
+    max-width: 55%;
+  }
+}
+
+/* Celular */
+@media (max-width: 575.98px) {
+  .header__logo {
+    font-size: 38px;
+  }
+
+  .hero {
+    min-height: 460px;
+    align-items: flex-start;
+  }
+
+  .hero__content {
+    max-width: 100%;
+    padding: 40px 24px 0;
+  }
+
+  .hero__title {
+    font-size: 54px;
+    margin-bottom: 14px;
+  }
+
+  .hero__text {
+    max-width: 62%;
+    font-size: 13px;
+  }
+
+  .hero__image {
+    height: 75%;
+    opacity: 0.95;
+  }
+
+  .category {
+    height: 280px;
+  }
+
+  .category__content {
+    padding-left: 22px;
+  }
+
+  .category__title {
+    font-size: 24px;
+  }
+}
